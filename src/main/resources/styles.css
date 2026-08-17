@@ -1,0 +1,259 @@
+/* =========================================================
+   ESTILO GENERAL
+   ========================================================= */
+
+.root {
+    -fx-font-family: "Segoe UI", "Arial", sans-serif;
+    -fx-background-color: #F7F1E8;
+}
+
+
+/* =========================================================
+   TITULOS
+   ========================================================= */
+
+.label {
+    -fx-text-fill: #4E342E;
+    -fx-font-size: 14px;
+}
+
+.titulo-seccion {
+    -fx-font-size: 19px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #6D3B2C;
+}
+
+
+/* =========================================================
+   PANELES / TARJETAS
+   ========================================================= */
+
+.panel {
+    -fx-background-color: #FFFDF9;
+    -fx-background-radius: 14px;
+    -fx-padding: 20px;
+    -fx-effect: dropshadow(gaussian, rgba(70, 45, 35, 0.14), 12, 0, 0, 4);
+}
+
+
+/* =========================================================
+   CAMPOS DE TEXTO
+   ========================================================= */
+
+.text-field {
+    -fx-background-color: #FFFDF9;
+    -fx-border-color: #D8C3B5;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-padding: 9px 12px;
+    -fx-font-size: 14px;
+    -fx-text-fill: #3E2723;
+}
+
+.text-field:focused {
+    -fx-border-color: #C56A4A;
+    -fx-border-width: 2px;
+    -fx-background-color: #FFFFFF;
+}
+
+
+/* =========================================================
+   BOTONES GENERALES
+   ========================================================= */
+
+.button {
+    -fx-background-color: #D98B68;
+    -fx-text-fill: white;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+
+    -fx-background-radius: 8px;
+    -fx-border-radius: 8px;
+
+    -fx-padding: 10px 18px;
+
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #C97856;
+}
+
+.button:pressed {
+    -fx-background-color: #A95D40;
+}
+
+
+/* =========================================================
+   BOTON PRINCIPAL - GUARDAR
+   ========================================================= */
+
+.btn-guardar {
+    -fx-background-color: #C56A4A;
+}
+
+.btn-guardar:hover {
+    -fx-background-color: #B85B3D;
+}
+
+
+/* =========================================================
+   BOTON ACTUALIZAR
+   ========================================================= */
+
+.btn-actualizar {
+    -fx-background-color: #B8845A;
+}
+
+.btn-actualizar:hover {
+    -fx-background-color: #A57249;
+}
+
+
+/* =========================================================
+   BOTON ELIMINAR
+   ========================================================= */
+
+.btn-eliminar {
+    -fx-background-color: #B85450;
+}
+
+.btn-eliminar:hover {
+    -fx-background-color: #A84340;
+}
+
+
+/* =========================================================
+   BOTON NUEVO
+   ========================================================= */
+
+.btn-nuevo {
+    -fx-background-color: #8C7B70;
+}
+
+.btn-nuevo:hover {
+    -fx-background-color: #75665C;
+}
+
+
+/* =========================================================
+   BOTON AGREGAR TELEFONO
+   ========================================================= */
+
+.btn-telefono {
+    -fx-background-color: #D39A61;
+}
+
+.btn-telefono:hover {
+    -fx-background-color: #BD844D;
+}
+
+
+/* =========================================================
+   TABLA
+   ========================================================= */
+
+.table-view {
+    -fx-background-color: transparent;
+    -fx-border-color: #E1D3C7;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #7A4B3A;
+    -fx-background-radius: 10px 10px 0 0;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+    -fx-size: 42px;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+}
+
+.table-row-cell {
+    -fx-background-color: #FFFDF9;
+    -fx-border-color: transparent transparent #EFE4DB transparent;
+}
+
+.table-row-cell:odd {
+    -fx-background-color: #FAF5EF;
+}
+
+.table-row-cell:hover {
+    -fx-background-color: #F3E3D7;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #D98B68;
+}
+
+.table-row-cell:selected .text {
+    -fx-fill: white;
+}
+
+.table-cell {
+    -fx-padding: 10px;
+    -fx-font-size: 14px;
+    -fx-text-fill: #4E342E;
+}
+
+
+/* =========================================================
+   LISTA DE TELEFONOS
+   ========================================================= */
+
+.list-view {
+    -fx-background-color: #FFFDF9;
+    -fx-border-color: #D8C3B5;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+}
+
+.list-cell {
+    -fx-background-color: transparent;
+    -fx-padding: 9px 12px;
+    -fx-text-fill: #4E342E;
+}
+
+.list-cell:hover {
+    -fx-background-color: #F3E3D7;
+}
+
+.list-cell:selected {
+    -fx-background-color: #D98B68;
+    -fx-text-fill: white;
+}
+
+
+/* =========================================================
+   SCROLLBAR
+   ========================================================= */
+
+.scroll-bar:vertical,
+.scroll-bar:horizontal {
+    -fx-background-color: transparent;
+}
+
+.scroll-bar .thumb {
+    -fx-background-color: #C8A38D;
+    -fx-background-radius: 10px;
+}
+
+.scroll-bar .thumb:hover {
+    -fx-background-color: #B4876D;
+}
+
+
+/* =========================================================
+   SEPARADORES
+   ========================================================= */
+
+.separator .line {
+    -fx-border-color: #E4D4C7;
+}
